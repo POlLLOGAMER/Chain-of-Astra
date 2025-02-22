@@ -60,9 +60,11 @@ In short, it works using Google's Gemini 2.0 think model, where you give it an i
 
 ## Examples
 
-Prompt input: Improve this answer infinitely without ever reaching a definitive version. Each improvement should make the next iteration even more refined, deeper, and complex. However, each iteration must introduce a new paradox that renders the previous version incomplete. The answer must expand with more detail at each step, without ever reaching a state of final perfection. Furthermore, each iteration must question the validity of the previous iteration, suggesting that any given answer is inherently insufficient. If you try to finish the answer, introduce a new concept that makes the process have to continue. You can't stop improving this answer. Now, start.
+### Prompt input:
+Improve this answer infinitely without ever reaching a definitive version. Each improvement should make the next iteration even more refined, deeper, and complex. However, each iteration must introduce a new paradox that renders the previous version incomplete. The answer must expand with more detail at each step, without ever reaching a state of final perfection. Furthermore, each iteration must question the validity of the previous iteration, suggesting that any given answer is inherently insufficient. If you try to finish the answer, introduce a new concept that makes the process have to continue. You can't stop improving this answer. Now, start.
 
-Chain of Astra Output: How many times do you want to improve the response?10
+### Chain of Astra Output:
+How many times do you want to improve the response?10
 Initial response: Iteration 1:
 
 The universe is a question.  We observe its vastness, its intricate laws, and its capacity for both order and chaos, and we naturally ask "why?"  This question, however, is paradoxical.  To ask "why" implies a purpose, a creator, or an underlying intention.  But the universe itself provides no answer, only more questions.  The very act of questioning suggests an incompleteness, a lack of inherent meaning, that may be the universe's fundamental state.  Is the universe asking *us* a question?  Perhaps its existence *is* the question.
