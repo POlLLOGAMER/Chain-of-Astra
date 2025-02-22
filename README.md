@@ -52,3 +52,5 @@ astra_number = int(input("How many times do you want to improve the response?"))
 astra_chat(input_text, astra_number)
 
 ```
+##Instructions
+In os.environ["API_KEY"] = "" You have to put your API. And in input_text = "Enter your initial question here" your question
