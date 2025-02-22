@@ -9,7 +9,7 @@ Heres the code of Chain of Astra:
 !pip install -U -q "google-generativeai>=0.8.2"
 import os
 import google.generativeai as genai
-os.environ["API_KEY"] = "AIzaSyDjTN-GGhpw9Eeo2YE17OMriJvglEk3UQI"
+os.environ["API_KEY"] = ""
 
 # Configuration of the API using the newly set variable.
 genai.configure(api_key=os.environ["API_KEY"])
