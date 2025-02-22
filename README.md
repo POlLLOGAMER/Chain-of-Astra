@@ -54,3 +54,6 @@ astra_chat(input_text, astra_number)
 ```
 ## Instructions
 In os.environ["API_KEY"] = "" You have to put your API. And in input_text = "Enter your initial question here" your question
+
+## In-depth explanation of how it works
+In short, it works using Google's Gemini 2.0 think model, where you give it an initial prompt (the question) and it analyzes it with this model, and what it does in response is to ask the same model again to improve the answer it gave. And it does this the number of times you tell it to improve it.
